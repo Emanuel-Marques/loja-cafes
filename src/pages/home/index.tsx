@@ -5,7 +5,7 @@ function Home() {
   const navigate = useNavigate();
 
   function handleClick(): void {
-    navigate('/coffeeList');
+    navigate("/coffeeList");
   }
 
   return (
@@ -15,9 +15,9 @@ function Home() {
       {/* <Link to="/coffeeList">
         <button>Conheça nossos produtos</button>
       </Link> */}
-      <button onClick={ handleClick } >Conheça nossos produtos</button>
+      <button onClick={handleClick}>Conheça nossos produtos</button>
     </>
-  )
+  );
 }
-  
+
 export default Home;
